@@ -1,12 +1,18 @@
-²»ºÏÊ±ÒËµÄÊ¹ÓÃ innerHTML ¿ÉÄÜ»áµ¼ÖÂ cross-site scripting (XSS) ¹¥»÷¡£ ¾»»¯ÓÃ»§µÄÊäÈëÀ´ÏÔÊ¾µÄÊ±ºò£¬¾­³£»á³öÏÖ´íÎó£¬²»ºÏÊÊµÄ¾»»¯Ò²ÊÇµ¼ÖÂÍøÒ³¹¥»÷ µÄÔ­ÒòÖ®Ò»¡£
+ä¸åˆæ—¶å®œçš„ä½¿ç”¨ innerHTML å¯èƒ½ä¼šå¯¼è‡´ cross-site scripting (XSS) æ”»å‡»ã€‚ å‡€åŒ–ç”¨æˆ·çš„è¾“å…¥æ¥æ˜¾ç¤ºçš„æ—¶å€™ï¼Œç»å¸¸ä¼šå‡ºçŽ°é”™è¯¯ï¼Œä¸åˆé€‚çš„å‡€åŒ–ä¹Ÿæ˜¯å¯¼è‡´
+ç½‘é¡µæ”»å‡»çš„åŽŸå› ä¹‹ä¸€ã€‚
 
-ÎÒÃÇµÄÉè¼ÆÕÜÑ§ÊÇÈÃÈ·±£°²È«Ó¦¸ÃÊÇ¼òµ¥µÄ£¬¿ª·¢ÕßÔÚÖ´ÐÐ¡°²»°²È«¡±µÄ²Ù×÷µÄÊ±ºòÓ¦¸ÃÇå³þµØÖªµÀËûÃÇ×Ô¼ºµÄÒâÍ¼¡£ dangerouslySetInnerHTML Õâ¸ö prop µÄÃüÃûÊÇ¹ÊÒâÕâÃ´Éè¼ÆµÄ£¬ÒÔ´ËÀ´¾¯¸æ£¬ËüµÄ prop Öµ£¨ Ò»¸ö¶ÔÏó¶ø²»ÊÇ×Ö·û´® £©Ó¦¸Ã±»ÓÃÀ´±íÃ÷¾»»¯ºóµÄÊý¾Ý¡£
+æˆ‘ä»¬çš„è®¾è®¡å“²å­¦æ˜¯è®©ç¡®ä¿å®‰å…¨åº”è¯¥æ˜¯ç®€å•çš„ï¼Œå¼€å‘è€…åœ¨æ‰§è¡Œâ€œä¸å®‰å…¨â€çš„æ“ä½œçš„æ—¶å€™åº”è¯¥æ¸…æ¥šåœ°çŸ¥é“ä»–ä»¬è‡ªå·±çš„æ„å›¾ã€‚ dangerouslySetInnerHTML è¿™ä¸ªprop
+çš„å‘½åæ˜¯æ•…æ„è¿™ä¹ˆè®¾è®¡çš„ï¼Œä»¥æ­¤æ¥è­¦å‘Šï¼Œå®ƒçš„ prop å€¼ï¼ˆ ä¸€ä¸ªå¯¹è±¡è€Œä¸æ˜¯å­—ç¬¦ä¸² ï¼‰åº”è¯¥è¢«ç”¨æ¥è¡¨æ˜Žå‡€åŒ–åŽçš„æ•°æ®ã€‚
 
-ÔÚ³¹µ×µÄÀí½â°²È«ÎÊÌâºó¹û²¢ÕýÈ·µØ¾»»¯Êý¾ÝÖ®ºó£¬Éú³ÉÖ»°üº¬Î¨Ò» key __html µÄ¶ÔÏó£¬²¢ÇÒ¶ÔÏóµÄÖµÊÇ¾»»¯ºóµÄÊý¾Ý¡£ÏÂÃæÊÇÒ»¸öÊ¹ÓÃ JSX Óï·¨µÄÀõ×Ó£º
+åœ¨å½»åº•çš„ç†è§£å®‰å…¨é—®é¢˜åŽæžœå¹¶æ­£ç¡®åœ°å‡€åŒ–æ•°æ®ä¹‹åŽï¼Œç”ŸæˆåªåŒ…å«å”¯ä¸€ key __html çš„å¯¹è±¡ï¼Œå¹¶ä¸”å¯¹è±¡çš„å€¼æ˜¯å‡€åŒ–åŽçš„æ•°æ®ã€‚ä¸‹é¢æ˜¯ä¸€ä¸ªä½¿ç”¨ JSX è¯­æ³•
+çš„æ —å­ï¼š
 
     function createMarkup() { return {__html: 'First  &middot; Second'}; };
     <div dangerouslySetInnerHTML={createMarkup()} />
 
-ÕâÃ´×öµÄÒâÒåÔÚÓÚ£¬µ±Äã²»ÊÇÓÐÒâµØÊ¹ÓÃ <div dangerouslySetInnerHTML={getUsername()} /> Ê±ºò£¬Ëü²¢²»»á±»äÖÈ¾£¬ÒòÎª getUsername() ·µ»ØµÄ¸ñÊ½ÊÇ ×Ö·û´® ¶ø²»ÊÇÒ»¸ö {__html: ''} ¶ÔÏó¡£{__html:...} ±³ºóµÄÄ¿µÄÊÇ±íÃ÷Ëü»á±»µ±³É "type/taint" ÀàÐÍ´¦Àí¡£ ÕâÖÖ°ü¹ü¶ÔÏó£¬¿ÉÒÔÍ¨¹ý·½·¨µ÷ÓÃ·µ»Ø¾»»¯ºóµÄÊý¾Ý£¬ËæºóÕâÖÖ±ê¼Ç¹ýµÄÊý¾Ý¿ÉÒÔ±»´«µÝ¸ø dangerouslySetInnerHTML¡£ »ùÓÚÕâÖÖÔ­Òò£¬ÎÒÃÇ²»ÍÆ¼öÐ´ÕâÖÖÐÎÊ½µÄ´úÂë£º<div dangerouslySetInnerHTML={{'{{'}}__html: getMarkup()}} />.
+è¿™ä¹ˆåšçš„æ„ä¹‰åœ¨äºŽï¼Œå½“ä½ ä¸æ˜¯æœ‰æ„åœ°ä½¿ç”¨ <div dangerouslySetInnerHTML={getUsername()} /> æ—¶å€™ï¼Œå®ƒå¹¶ä¸ä¼šè¢«æ¸²æŸ“ï¼Œå› ä¸º getUsername() 
+è¿”å›žçš„æ ¼å¼æ˜¯å­—ç¬¦ä¸² è€Œä¸æ˜¯ä¸€ä¸ª {__html: ''} å¯¹è±¡ã€‚{__html:...} èƒŒåŽçš„ç›®çš„æ˜¯è¡¨æ˜Žå®ƒä¼šè¢«å½“æˆ "type/taint" ç±»åž‹å¤„ç†ã€‚ è¿™ç§åŒ…è£¹å¯¹è±¡ï¼Œ
+å¯ä»¥é€šè¿‡æ–¹æ³•è°ƒç”¨è¿”å›žå‡€åŒ–åŽçš„æ•°æ®ï¼ŒéšåŽè¿™ç§æ ‡è®°è¿‡çš„æ•°æ®å¯ä»¥è¢«ä¼ é€’ç»™ dangerouslySetInnerHTMLã€‚ åŸºäºŽè¿™ç§åŽŸå› ï¼Œæˆ‘ä»¬ä¸æŽ¨èå†™
+è¿™ç§å½¢å¼çš„ä»£ç ï¼š<div dangerouslySetInnerHTML={{'{{'}}__html: getMarkup()}} />.
 
-Õâ¸ö¹¦ÄÜÖ÷Òª±»ÓÃÀ´Óë DOM ×Ö·û´®²Ù×÷Àà¿âÒ»ÆðÊ¹ÓÃ£¬ËùÒÔÌá¹©µÄ HTML ±ØÐëÒª¸ñÊ½ÇåÎú£¨ÀýÈç£º´«µÝ XML Ð£Ñé £©
+è¿™ä¸ªåŠŸèƒ½ä¸»è¦è¢«ç”¨æ¥ä¸Ž DOM å­—ç¬¦ä¸²æ“ä½œç±»åº“ä¸€èµ·ä½¿ç”¨ï¼Œæ‰€ä»¥æä¾›çš„ HTML å¿…é¡»è¦æ ¼å¼æ¸…æ™°ï¼ˆä¾‹å¦‚ï¼šä¼ é€’ XML æ ¡éªŒ ï¼‰
