@@ -1,5 +1,4 @@
 ﻿JavaScript 编码规约
-本章内容为ES5规约，ES6请参考 ES6规约
 
 编码
 
