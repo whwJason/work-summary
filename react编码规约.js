@@ -1,16 +1,16 @@
-React ±àÂë¹æÔ¼
+React ç¼–ç è§„çº¦
 
-»ù±¾
+åŸºæœ¬
 
 1.1
 
-Ã¿¸öÎÄ¼şÖ»Ğ´Ò»¸ö×é¼ş£¬µ«ÊÇ¶à¸öÎŞ×´Ì¬×é¼ş¿ÉÒÔ·ÅÔÚµ¥¸öÎÄ¼şÖĞ¡£
+æ¯ä¸ªæ–‡ä»¶åªå†™ä¸€ä¸ªç»„ä»¶ï¼Œä½†æ˜¯å¤šä¸ªæ— çŠ¶æ€ç»„ä»¶å¯ä»¥æ”¾åœ¨å•ä¸ªæ–‡ä»¶ä¸­ã€‚
 
-×é¼ş
+ç»„ä»¶
 
 2.1
 
-¡¾Ç¿ÖÆ¡¿ÓĞÄÚ²¿×´Ì¬£¬·½·¨»òÕßÊÇÒª¶ÔÍâ±©Â¶refµÄ×é¼ş£¬Ê¹ÓÃES6 ClassĞ´·¨¡£
+ã€å¼ºåˆ¶ã€‘æœ‰å†…éƒ¨çŠ¶æ€ï¼Œæ–¹æ³•æˆ–è€…æ˜¯è¦å¯¹å¤–æš´éœ²refçš„ç»„ä»¶ï¼Œä½¿ç”¨ES6 Classå†™æ³•ã€‚
 
 // bad
 const Listing = React.createClass({
@@ -29,7 +29,7 @@ class Listing extends React.Component {
 }
 2.2
 
-Ã»ÓĞÄÚ²¿×´Ì¬£¬·½·¨»òÕßÊÇÎŞĞè¶ÔÍâ±©Â¶refµÄ×é¼ş£¬Ê¹ÓÃº¯ÊıĞ´·¨¡£
+æ²¡æœ‰å†…éƒ¨çŠ¶æ€ï¼Œæ–¹æ³•æˆ–è€…æ˜¯æ— éœ€å¯¹å¤–æš´éœ²refçš„ç»„ä»¶ï¼Œä½¿ç”¨å‡½æ•°å†™æ³•ã€‚
 
 // bad
 class Listing extends React.Component {
@@ -46,7 +46,7 @@ PropTypes/DefaultProps
 
 3.1
 
-ÓĞÄÚ²¿×´Ì¬£¬·½·¨»òÕßÊÇÒª¶ÔÍâ±©Â¶refµÄ×é¼ş£¬Ê¹ÓÃES7Àà¾²Ì¬ÊôĞÔÌá°¸Ğ´·¨¡£
+æœ‰å†…éƒ¨çŠ¶æ€ï¼Œæ–¹æ³•æˆ–è€…æ˜¯è¦å¯¹å¤–æš´éœ²refçš„ç»„ä»¶ï¼Œä½¿ç”¨ES7ç±»é™æ€å±æ€§ææ¡ˆå†™æ³•ã€‚
 
 class Button extends Component {
   static propTypes = {
@@ -67,7 +67,7 @@ class Button extends Component {
 }
 3.2
 
-Ã»ÓĞÄÚ²¿×´Ì¬£¬·½·¨»òÕßÎŞĞè¶ÔÍâ±©Â¶refµÄ×é¼ş£¬Ê¹ÓÃÀà¾²Ì¬ÊôĞÔĞ´·¨¡£
+æ²¡æœ‰å†…éƒ¨çŠ¶æ€ï¼Œæ–¹æ³•æˆ–è€…æ— éœ€å¯¹å¤–æš´éœ²refçš„ç»„ä»¶ï¼Œä½¿ç”¨ç±»é™æ€å±æ€§å†™æ³•ã€‚
 
 const HelloMessage = ({ name }) => {
   return <div>Hello {name}</div>;
@@ -82,13 +82,13 @@ HelloMessage.defaultProps = {
 };
 3.3
 
-PropTypes±ØĞë¡£
+PropTypeså¿…é¡»ã€‚
 
 State
 
 4.1
 
-Ê¹ÓÃES7ÊµÀıÊôĞÔÌá°¸ÉùÃ÷Ğ´·¨»òÕß¹¹Ôìº¯ÊıÉùÃ÷Ğ´·¨£¬ºóÕßÊÊºÏĞèÒª½øĞĞÒ»¶¨¼ÆËãºó²ÅÄÜ³õÊ¼»¯stateµÄÇé¿ö¡£
+ä½¿ç”¨ES7å®ä¾‹å±æ€§ææ¡ˆå£°æ˜å†™æ³•æˆ–è€…æ„é€ å‡½æ•°å£°æ˜å†™æ³•ï¼Œåè€…é€‚åˆéœ€è¦è¿›è¡Œä¸€å®šè®¡ç®—åæ‰èƒ½åˆå§‹åŒ–stateçš„æƒ…å†µã€‚
 
 class Some extends Component {
   state = {
@@ -110,7 +110,7 @@ class Some extends Component {
 }
 4.2
 
-¡¾½¨Òé¡¿²»½¨Òé¶Ôthis.state½øĞĞ¸³Öµ¡£
+ã€å»ºè®®ã€‘ä¸å»ºè®®å¯¹this.stateè¿›è¡Œèµ‹å€¼ã€‚
 
 // bad
 this.state.name = this.props.name.toUpperCase();
@@ -121,7 +121,7 @@ this.setState({
 });
 DisplayName
 
-¡¾½¨Òé¡¿ÎªÁËµ÷ÊÔ·½±ã£¬½¨ÒéÔÚ×é¼ş×îÉÏÃæĞ´displayName¡£
+ã€å»ºè®®ã€‘ä¸ºäº†è°ƒè¯•æ–¹ä¾¿ï¼Œå»ºè®®åœ¨ç»„ä»¶æœ€ä¸Šé¢å†™displayNameã€‚
 
 // good
 class Some extends Component {
@@ -129,19 +129,19 @@ class Some extends Component {
 
   // ....
 }
-ÃüÃû
+å‘½å
 
 5.1
 
-¡¾Ç¿ÖÆ¡¿À©Õ¹Ãû: React×é¼şÎÄ¼şÊ¹ÓÃ.jsxÀ©Õ¹Ãû¡£
+ã€å¼ºåˆ¶ã€‘æ‰©å±•å: Reactç»„ä»¶æ–‡ä»¶ä½¿ç”¨.jsxæ‰©å±•åã€‚
 
 5.2
 
-ÎÄ¼şÃû: ÎÄ¼şÃûÊ¹ÓÃÍÕ·åÊ½ÃüÃû£¬Ê××ÖÄ¸´óĞ´£¬ÈçReservationCard.jsx¡£
+æ–‡ä»¶å: æ–‡ä»¶åä½¿ç”¨é©¼å³°å¼å‘½åï¼Œé¦–å­—æ¯å¤§å†™ï¼Œå¦‚ReservationCard.jsxã€‚
 
 5.3
 
-ÒıÓÃÃüÃû: React×é¼şÃûÊ¹ÓÃÍÕ·åÊ½ÃüÃû£¬Ê××ÖÄ¸´óĞ´£¬ÊµÀıÃûÒ²Ê¹ÓÃÍÕ·åÊ½ÃüÃû£¬µ«Ê××ÖÄ¸Ğ¡Ğ´¡£
+å¼•ç”¨å‘½å: Reactç»„ä»¶åä½¿ç”¨é©¼å³°å¼å‘½åï¼Œé¦–å­—æ¯å¤§å†™ï¼Œå®ä¾‹åä¹Ÿä½¿ç”¨é©¼å³°å¼å‘½åï¼Œä½†é¦–å­—æ¯å°å†™ã€‚
 
 // bad
 import reservationCard from './ReservationCard';
@@ -154,11 +154,11 @@ const ReservationItem = <ReservationCard />;
 
 // good
 const reservationItem = <ReservationCard />;
-ÒıºÅ
+å¼•å·
 
 6.1
 
-¶ÔÓÚJSXÊôĞÔÖµ×ÜÊÇÊ¹ÓÃË«ÒıºÅ", ÆäËû¾ùÊ¹ÓÃµ¥ÒıºÅ'¡£
+å¯¹äºJSXå±æ€§å€¼æ€»æ˜¯ä½¿ç”¨åŒå¼•å·", å…¶ä»–å‡ä½¿ç”¨å•å¼•å·'ã€‚
 
 // bad
 <Foo bar='bar' />
@@ -171,11 +171,11 @@ const reservationItem = <ReservationCard />;
 
 // good
 <Foo style={{ left: '20px' }} />
-¿Õ¸ñ
+ç©ºæ ¼
 
 7.1
 
-¡¾½¨Òé¡¿×ÜÊÇÔÚ×Ô±ÕºÏµÄ±êÇ©/>Ç°¼ÓÒ»¸ö¿Õ¸ñ¡£
+ã€å»ºè®®ã€‘æ€»æ˜¯åœ¨è‡ªé—­åˆçš„æ ‡ç­¾/>å‰åŠ ä¸€ä¸ªç©ºæ ¼ã€‚
 
 // bad
 <Foo/>
@@ -187,7 +187,7 @@ const reservationItem = <ReservationCard />;
 <Foo />
 7.2
 
-¡¾½¨Òé¡¿²»ÒªÔÚJSX{}ÒıÓÃÀ¨ºÅÀïÁ½±ß¼Ó¿Õ¸ñ¡£
+ã€å»ºè®®ã€‘ä¸è¦åœ¨JSX{}å¼•ç”¨æ‹¬å·é‡Œä¸¤è¾¹åŠ ç©ºæ ¼ã€‚
 
 // bad
 <Foo bar={ baz } />
@@ -196,18 +196,18 @@ const reservationItem = <ReservationCard />;
 <Foo bar={baz} />
 7.3
 
-¡¾½¨Òé¡¿²»ÒªÔÚJSX propsÊôĞÔ=Á½±ß¼Ó¿Õ¸ñ¡£
+ã€å»ºè®®ã€‘ä¸è¦åœ¨JSX propså±æ€§=ä¸¤è¾¹åŠ ç©ºæ ¼ã€‚
 
 // bad
 <Hello name = {firstname} />;
 
 // good
 <Hello name={firstname} />;
-ÊôĞÔ
+å±æ€§
 
 8.1
 
-¡¾Ç¿ÖÆ¡¿JSXÊôĞÔÃû×ÜÊÇÊ¹ÓÃÍÕ·åÊ½·ç¸ñ¡£
+ã€å¼ºåˆ¶ã€‘JSXå±æ€§åæ€»æ˜¯ä½¿ç”¨é©¼å³°å¼é£æ ¼ã€‚
 
 // bad
 <Foo UserName="hello" phone_number={12345678} />
@@ -216,7 +216,7 @@ const reservationItem = <ReservationCard />;
 <Foo userName="hello" phoneNumber={12345678} />
 8.2
 
-¡¾½¨Òé¡¿Èç¹ûÊôĞÔÖµÎªtrue, ¿ÉÒÔÖ±½ÓÊ¡ÂÔ¡£
+ã€å»ºè®®ã€‘å¦‚æœå±æ€§å€¼ä¸ºtrue, å¯ä»¥ç›´æ¥çœç•¥ã€‚
 
 // bad
 <Foo hidden={true} />
@@ -225,7 +225,7 @@ const reservationItem = <ReservationCard />;
 <Foo hidden />
 8.3
 
-¡¾Ç¿ÖÆ¡¿Êı×éÖĞ»òÕß±éÀúÖĞÊä³öÏàÍ¬µÄReact×é¼ş£¬ÊôĞÔkey±ØĞè¡£
+ã€å¼ºåˆ¶ã€‘æ•°ç»„ä¸­æˆ–è€…éå†ä¸­è¾“å‡ºç›¸åŒçš„Reactç»„ä»¶ï¼Œå±æ€§keyå¿…éœ€ã€‚
 
 // bad
 [<Hello />, <Hello />, <Hello />];
@@ -238,7 +238,7 @@ data.map(x => <Hello>x</Hello>);
 data.map((x, i) => <Hello key={i}>x</Hello>);
 8.4
 
-¡¾Ç¿ÖÆ¡¿classÒÔ¼°forµÈ¹Ø¼ü×Ö²»ÔÊĞí×÷ÎªÊôĞÔÃû¡£
+ã€å¼ºåˆ¶ã€‘classä»¥åŠforç­‰å…³é”®å­—ä¸å…è®¸ä½œä¸ºå±æ€§åã€‚
 
 // bad
 <div class="hello">Hello World</div>;
@@ -247,7 +247,7 @@ data.map((x, i) => <Hello key={i}>x</Hello>);
 <div className="hello">Hello World</div>;
 8.5
 
-¡¾Ç¿ÖÆ¡¿ÊôĞÔÃû²»ÔÊĞíÖØ¸´ÉùÃ÷¡£
+ã€å¼ºåˆ¶ã€‘å±æ€§åä¸å…è®¸é‡å¤å£°æ˜ã€‚
 
 // bad
 <Hello name="John" name="John" />;
@@ -258,7 +258,7 @@ Refs
 
 9.1
 
-¡¾Ç¿ÖÆ¡¿×ÜÊÇÔÚRefsÀïÊ¹ÓÃ»Øµ÷º¯Êı¡£
+ã€å¼ºåˆ¶ã€‘æ€»æ˜¯åœ¨Refsé‡Œä½¿ç”¨å›è°ƒå‡½æ•°ã€‚
 
 // bad
 <Foo
@@ -269,11 +269,11 @@ Refs
 <Foo
   ref={ref => { this.myRef = ref; }}
 />
-À¨ºÅ
+æ‹¬å·
 
 10.1
 
-¡¾½¨Òé¡¿½«¶àĞĞµÄJSX±êÇ©Ğ´ÔÚ()Àï£¬µ¥ĞĞ¿ÉÒÔÊ¡ÂÔ()¡£
+ã€å»ºè®®ã€‘å°†å¤šè¡Œçš„JSXæ ‡ç­¾å†™åœ¨()é‡Œï¼Œå•è¡Œå¯ä»¥çœç•¥()ã€‚
 
 // bad
 render() {
@@ -296,22 +296,22 @@ render() {
   const body = <div>hello</div>;
   return <MyComponent>{body}</MyComponent>;
 }
-±êÇ©
+æ ‡ç­¾
 
 11.1
 
-¶ÔÓÚÃ»ÓĞ×ÓÔªËØµÄ±êÇ©À´Ëµ×ÜÊÇ±ÕºÏµÄ¡£
+å¯¹äºæ²¡æœ‰å­å…ƒç´ çš„æ ‡ç­¾æ¥è¯´æ€»æ˜¯é—­åˆçš„ã€‚
 
 // bad
 <Foo className="stuff"></Foo>
 
 // good
 <Foo className="stuff" />
-·½·¨
+æ–¹æ³•
 
 12.1
 
-render·½·¨±ØĞëÓĞÖµ·µ»Ø¡£
+renderæ–¹æ³•å¿…é¡»æœ‰å€¼è¿”å›ã€‚
 
 // bad
 render() {
@@ -324,15 +324,17 @@ render() {
 }
 12.2
 
-¡¾½¨Òé¡¿°´ÕÕÒÔÏÂË³ĞòÅÅĞòÄÚ²¿·½·¨¡£
+ã€å»ºè®®ã€‘æŒ‰ç…§ä»¥ä¸‹é¡ºåºæ’åºå†…éƒ¨æ–¹æ³•ã€‚
 
 1. static methods and properties
-2. lifecycle methods: displayName, propTypes, contextTypes, childContextTypes, mixins, statics,defaultProps, constructor, getDefaultProps, getInitialState, state, getChildContext, componentWillMount, componentDidMount, componentWillReceiveProps, shouldComponentUpdate, componentWillUpdate, componentDidUpdate, componentWillUnmount (in this order).
+2. lifecycle methods: displayName, propTypes, contextTypes, childContextTypes, mixins, statics,defaultProps, constructor, 
+   getDefaultProps, getInitialState, state, getChildContext, componentWillMount, componentDidMount, componentWillReceiveProps, 
+   shouldComponentUpdate, componentWillUpdate, componentDidUpdate, componentWillUnmount (in this order).
 3. custom methods
 4. render method`
 12.3
 
-¡¾½¨Òé¡¿²»ÒªÔÚcomponentDidMountÒÔ¼°componentDidUpdateÖĞµ÷ÓÃsetState£¬³ı·ÇÊÇÔÚ°ó¶¨µÄ»Øµ÷º¯ÊıÖĞÉèÖÃState¡£
+ã€å»ºè®®ã€‘ä¸è¦åœ¨componentDidMountä»¥åŠcomponentDidUpdateä¸­è°ƒç”¨setStateï¼Œé™¤éæ˜¯åœ¨ç»‘å®šçš„å›è°ƒå‡½æ•°ä¸­è®¾ç½®Stateã€‚
 
 // bad
 class Hello extends Component {
@@ -361,7 +363,7 @@ class Hello extends Component {
 }
 12.4
 
-¡¾½¨Òé¡¿Ê¹ÓÃ¼ıÍ·º¯ÊıÀ´»ñÈ¡±¾µØ±äÁ¿¡£
+ã€å»ºè®®ã€‘ä½¿ç”¨ç®­å¤´å‡½æ•°æ¥è·å–æœ¬åœ°å˜é‡ã€‚
 
 function ItemList(props) {
   return (
@@ -377,9 +379,9 @@ function ItemList(props) {
 }
 12.5
 
-¡¾½¨Òé¡¿µ±ÔÚrender()ÀïÊ¹ÓÃÊÂ¼ş´¦Àí·½·¨Ê±£¬ÌáÇ°ÔÚ¹¹Ôìº¯ÊıÀï°Ñthis°ó¶¨ÉÏÈ¥¡£
+ã€å»ºè®®ã€‘å½“åœ¨render()é‡Œä½¿ç”¨äº‹ä»¶å¤„ç†æ–¹æ³•æ—¶ï¼Œæå‰åœ¨æ„é€ å‡½æ•°é‡ŒæŠŠthisç»‘å®šä¸Šå»ã€‚
 
-½âÊÍ£ºÎªÊ²Ã´?ÔÚÃ¿´Îrender¹ı³ÌÖĞ£¬ ÔÙµ÷ÓÃbind¶¼»áĞÂ½¨Ò»¸öĞÂµÄº¯Êı£¬ÀË·Ñ×ÊÔ´¡£
+è§£é‡Šï¼šä¸ºä»€ä¹ˆ?åœ¨æ¯æ¬¡renderè¿‡ç¨‹ä¸­ï¼Œ å†è°ƒç”¨bindéƒ½ä¼šæ–°å»ºä¸€ä¸ªæ–°çš„å‡½æ•°ï¼Œæµªè´¹èµ„æºã€‚
 // bad
 class extends React.Component {
   onClickDiv() {
@@ -409,9 +411,10 @@ class extends React.Component {
 }
 12.6
 
-¡¾½¨Òé¡¿ÔÚReactÄ£¿éÖĞ£¬²»Òª¸øËùÎ½µÄË½ÓĞº¯ÊıÌí¼Ó_Ç°×º£¬±¾ÖÊÉÏËü²¢²»ÊÇË½ÓĞµÄ¡£
+ã€å»ºè®®ã€‘åœ¨Reactæ¨¡å—ä¸­ï¼Œä¸è¦ç»™æ‰€è°“çš„ç§æœ‰å‡½æ•°æ·»åŠ _å‰ç¼€ï¼Œæœ¬è´¨ä¸Šå®ƒå¹¶ä¸æ˜¯ç§æœ‰çš„ã€‚
 
-½âÊÍ£º_ÏÂ»®ÏßÇ°×ºÔÚÄ³Ğ©ÓïÑÔÖĞÍ¨³£±»ÓÃÀ´±íÊ¾Ë½ÓĞ±äÁ¿»òÕßº¯Êı¡£µ«ÊÇ²»ÏñÆäËûµÄÒ»Ğ©ÓïÑÔ£¬ÔÚJSÖĞÃ»ÓĞÔ­ÉúÖ§³ÖËùÎ½µÄË½ÓĞ±äÁ¿£¬ËùÓĞµÄ±äÁ¿º¯Êı¶¼ÊÇ¹²ÓĞµÄ¡£¾¡¹ÜÄãµÄÒâÍ¼ÊÇÊ¹ËüË½ÓĞ»¯£¬ÔÚÖ®Ç°¼ÓÉÏÏÂ»®Ïß²¢²»»áÊ¹ÕâĞ©±äÁ¿Ë½ÓĞ»¯£¬²¢ÇÒËùÓĞµÄÊôĞÔ£¨°üÀ¨ÓĞÏÂ»®ÏßÇ°×º¼°Ã»ÓĞÇ°×ºµÄ£©¶¼Ó¦¸Ã±»ÊÓÎªÊÇ¹²ÓĞµÄ¡£ÁË½â¸ü¶àÏêÇéÇë²é¿´Issue #1024£¬ºÍ#490¡£
+è§£é‡Šï¼š_ä¸‹åˆ’çº¿å‰ç¼€åœ¨æŸäº›è¯­è¨€ä¸­é€šå¸¸è¢«ç”¨æ¥è¡¨ç¤ºç§æœ‰å˜é‡æˆ–è€…å‡½æ•°ã€‚ä½†æ˜¯ä¸åƒå…¶ä»–çš„ä¸€äº›è¯­è¨€ï¼Œåœ¨JSä¸­æ²¡æœ‰åŸç”Ÿæ”¯æŒæ‰€è°“çš„ç§æœ‰å˜é‡ï¼Œæ‰€æœ‰çš„å˜é‡å‡½æ•°éƒ½æ˜¯å…±æœ‰çš„ã€‚
+å°½ç®¡ä½ çš„æ„å›¾æ˜¯ä½¿å®ƒç§æœ‰åŒ–ï¼Œåœ¨ä¹‹å‰åŠ ä¸Šä¸‹åˆ’çº¿å¹¶ä¸ä¼šä½¿è¿™äº›å˜é‡ç§æœ‰åŒ–ï¼Œå¹¶ä¸”æ‰€æœ‰çš„å±æ€§ï¼ˆåŒ…æ‹¬æœ‰ä¸‹åˆ’çº¿å‰ç¼€åŠæ²¡æœ‰å‰ç¼€çš„ï¼‰éƒ½åº”è¯¥è¢«è§†ä¸ºæ˜¯å…±æœ‰çš„ã€‚
 // bad
 React.createClass({
   _onClickSubmit() {
