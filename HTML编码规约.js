@@ -1,10 +1,10 @@
-HTML ±àÂë¹æÔ¼
+HTML ç¼–ç è§„çº¦
 
-»ù±¾¹æÔ¼
+åŸºæœ¬è§„çº¦
 
 HTML5 doctype
 
-ÔÚÃ¿¸ö HTML Ò³Ãæ¿ªÍ·Ê¹ÓÃÕâ¸ö¼òµ¥µØ doctype À´ÆôÓÃ±ê×¼Ä£Ê½£¬Ê¹ÆäÃ¿¸öä¯ÀÀÆ÷ÖÐ¾¡¿ÉÄÜÒ»ÖÂµÄÕ¹ÏÖ¡£
+åœ¨æ¯ä¸ª HTML é¡µé¢å¼€å¤´ä½¿ç”¨è¿™ä¸ªç®€å•åœ° doctype æ¥å¯ç”¨æ ‡å‡†æ¨¡å¼ï¼Œä½¿å…¶æ¯ä¸ªæµè§ˆå™¨ä¸­å°½å¯èƒ½ä¸€è‡´çš„å±•çŽ°ã€‚
 
 <!-- bad -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -19,27 +19,27 @@ HTML5 doctype
   <head>
   </head>
 </html>
-×Ö·û±àÂë
+å­—ç¬¦ç¼–ç 
 
-ÓÉÓÚÀúÊ·Ô­Òò£¬ÌÔÏµ²»Í¬²úÆ·¶¼ÊÇ²ÉÓÃÁË²»Í¬µÄ×Ö·û±àÂë¡£¶ÔÓÚÒÔºóµÄÐÂÒµÎñÈçÎÞÌØÊâÒªÇó£¬Í³Ò»Ê¹ÓÃ UTF-8 ×Ö·û±àÂë£¬±ãÓÚÍ³Ò»¡£
+ç”±äºŽåŽ†å²åŽŸå› ï¼Œæ·˜ç³»ä¸åŒäº§å“éƒ½æ˜¯é‡‡ç”¨äº†ä¸åŒçš„å­—ç¬¦ç¼–ç ã€‚å¯¹äºŽä»¥åŽçš„æ–°ä¸šåŠ¡å¦‚æ— ç‰¹æ®Šè¦æ±‚ï¼Œç»Ÿä¸€ä½¿ç”¨ UTF-8 å­—ç¬¦ç¼–ç ï¼Œä¾¿äºŽç»Ÿä¸€ã€‚
 
 Language attribute
 
-¸ù¾Ý HTML5 ¹æÔ¼£º
+æ ¹æ® HTML5 è§„çº¦ï¼š
 
-¹ÄÀøÍøÕ¾×÷ÕßÔÚ html ÔªËØÉÏÖ¸¶¨ lang ÊôÐÔ£¬À´Ö¸³öÒ³ÃæµÄÓïÑÔ¡£ÕâÑù×ö»áÓÐÖúÓÚÓïÑÔºÏ³É¹¤¾ßÀ´È·¶¨ÔõÑù·¢Òô£¬ÒÔ¼°·­Òë¹¤¾ß¾ö¶¨Ê¹ÓÃµÄ¹æÔò£¬µÈµÈ¡£
-Í¨¹ý¹æÔ¼ÖÐµÄ lang ÊôÐÔÁË½â¸ü¶àÏà¹ØÄÚÈÝ¡£
+é¼“åŠ±ç½‘ç«™ä½œè€…åœ¨ html å…ƒç´ ä¸ŠæŒ‡å®š lang å±žæ€§ï¼Œæ¥æŒ‡å‡ºé¡µé¢çš„è¯­è¨€ã€‚è¿™æ ·åšä¼šæœ‰åŠ©äºŽè¯­è¨€åˆæˆå·¥å…·æ¥ç¡®å®šæ€Žæ ·å‘éŸ³ï¼Œä»¥åŠç¿»è¯‘å·¥å…·å†³å®šä½¿ç”¨çš„è§„åˆ™ï¼Œç­‰ç­‰ã€‚
+é€šè¿‡è§„çº¦ä¸­çš„ lang å±žæ€§äº†è§£æ›´å¤šç›¸å…³å†…å®¹ã€‚
 
 ISO Language Codes
 
-IE ¼æÈÝÄ£Ê½
+IE å…¼å®¹æ¨¡å¼
 
-Internet Explorer Ö§³ÖÊ¹ÓÃ¼æÈÝÐÔ <meta> ±êÇ©À´Ö¸¶¨Ê¹ÓÃÊ²Ã´°æ±¾µÄ IE À´äÖÈ¾Ò³Ãæ¡£Èç¹û²»ÊÇÌØÊâÐèÒª£¬Í¨³£Í¨¹ý edge mode À´Í¨Öª IE Ê¹ÓÃ×îÐÂµÄ¼æÈÝÄ£Ê½¡£
+Internet Explorer æ”¯æŒä½¿ç”¨å…¼å®¹æ€§ <meta> æ ‡ç­¾æ¥æŒ‡å®šä½¿ç”¨ä»€ä¹ˆç‰ˆæœ¬çš„ IE æ¥æ¸²æŸ“é¡µé¢ã€‚å¦‚æžœä¸æ˜¯ç‰¹æ®Šéœ€è¦ï¼Œé€šå¸¸é€šè¿‡ edge mode æ¥é€šçŸ¥ IE ä½¿ç”¨æœ€æ–°çš„å…¼å®¹æ¨¡å¼ã€‚
 
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-ÒýÈë CSS ºÍ JavaScript
+å¼•å…¥ CSS å’Œ JavaScript
 
-¸ù¾Ý HTML5 ¹æÔ¼, Í¨³£ÔÚÒýÈë CSS ºÍ JavaScript Ê±²»ÐèÒªÖ¸Ã÷ type£¬ÒòÎª text/css ºÍ text/javascript ·Ö±ðÊÇËûÃÇµÄÄ¬ÈÏÖµ¡£
+æ ¹æ® HTML5 è§„çº¦, é€šå¸¸åœ¨å¼•å…¥ CSS å’Œ JavaScript æ—¶ä¸éœ€è¦æŒ‡æ˜Ž typeï¼Œå› ä¸º text/css å’Œ text/javascript åˆ†åˆ«æ˜¯ä»–ä»¬çš„é»˜è®¤å€¼ã€‚
 <!-- bad -->
 <!DOCTYPE html>
 <head>
@@ -53,7 +53,7 @@ Internet Explorer Ö§³ÖÊ¹ÓÃ¼æÈÝÐÔ <meta> ±êÇ©À´Ö¸¶¨Ê¹ÓÃÊ²Ã´°æ±¾µÄ IE À´äÖÈ¾Ò³Ãæ¡£
   <link rel="stylesheet" href="code-guide.css">
   <script src="example.js"></script>
 </head>
-´ËÍâ£¬ÒýÈë CSS ±ØÐëÔÚ <head></head> ±êÇ©ÀïÒýÈë¡£¶ÔÓÚÒýÈë Javascript£¬³ýÁË»ù´¡¿âµÈ±È½Ï»ù´¡ÐÔµÄ½Å±¾ÎÄ¼þ£¬ÆäËû¶¼ÔÚ¿¿½ü body ½áÊø±êÇ©Ç°ÃæÒýÈë¡£
+æ­¤å¤–ï¼Œå¼•å…¥ CSS å¿…é¡»åœ¨ <head></head> æ ‡ç­¾é‡Œå¼•å…¥ã€‚å¯¹äºŽå¼•å…¥ Javascriptï¼Œé™¤äº†åŸºç¡€åº“ç­‰æ¯”è¾ƒåŸºç¡€æ€§çš„è„šæœ¬æ–‡ä»¶ï¼Œå…¶ä»–éƒ½åœ¨é è¿‘ body ç»“æŸæ ‡ç­¾å‰é¢å¼•å…¥ã€‚
 <!-- bad -->
 <!DOCTYPE html>
 <html>
@@ -84,7 +84,7 @@ Internet Explorer Ö§³ÖÊ¹ÓÃ¼æÈÝÐÔ <meta> ±êÇ©À´Ö¸¶¨Ê¹ÓÃÊ²Ã´°æ±¾µÄ IE À´äÖÈ¾Ò³Ãæ¡£
   <body>
   </body>
 </html>
-Ëõ½øÊ¹ÓÃÁ½¸ö¿Õ¸ñ
+ç¼©è¿›ä½¿ç”¨ä¸¤ä¸ªç©ºæ ¼
 
 <!-- bad -->
 <div>
@@ -95,7 +95,7 @@ Internet Explorer Ö§³ÖÊ¹ÓÃ¼æÈÝÐÔ <meta> ±êÇ©À´Ö¸¶¨Ê¹ÓÃÊ²Ã´°æ±¾µÄ IE À´äÖÈ¾Ò³Ãæ¡£
 <div>
   <p>just a example</p>
 </div>
-±êÇ©Ãû³ÆºÍ±êÇ©ÊôÐÔÍ³Ò»Ê¹ÓÃÐ¡Ð´
+æ ‡ç­¾åç§°å’Œæ ‡ç­¾å±žæ€§ç»Ÿä¸€ä½¿ç”¨å°å†™
 
 <!-- bad -->
 <Div Id="test">
@@ -104,9 +104,9 @@ Internet Explorer Ö§³ÖÊ¹ÓÃ¼æÈÝÐÔ <meta> ±êÇ©À´Ö¸¶¨Ê¹ÓÃÊ²Ã´°æ±¾µÄ IE À´äÖÈ¾Ò³Ãæ¡£
 <!-- good -->
 <div id="test">
 </div>
-½¨ÒéµÄ html ½ÅÊÖ¼Ü
+å»ºè®®çš„ html è„šæ‰‹æž¶
 
-ÓÉÉÏÃæ¹æÔ¼¿ÉÒÔµÃ³öÏÂÃæ½¨ÒéµÄ html ½ÅÊÖ¼Ü£º
+ç”±ä¸Šé¢è§„çº¦å¯ä»¥å¾—å‡ºä¸‹é¢å»ºè®®çš„ html è„šæ‰‹æž¶ï¼š
 
 <!DOCTYPE html>
 <html>
@@ -117,30 +117,30 @@ Internet Explorer Ö§³ÖÊ¹ÓÃ¼æÈÝÐÔ <meta> ±êÇ©À´Ö¸¶¨Ê¹ÓÃÊ²Ã´°æ±¾µÄ IE À´äÖÈ¾Ò³Ãæ¡£
     <meta name="renderer" content="webkit">
     <meta name="description" content="">
     <meta name="keyword" content="">
-    <title>ÌÔ±¦Íø</title>
+    <title>æ·˜å®ç½‘</title>
     <link rel="stylesheet" href="example.css">
   </head>
   <body>
       <script src="example.js"></script>
   </body>
 </html>
-ÊôÐÔ¹æÔ¼
+å±žæ€§è§„çº¦
 
-ÊôÐÔÒýºÅÓÃË«ÒýºÅ
+å±žæ€§å¼•å·ç”¨åŒå¼•å·
 
 <!-- bad -->
 <link rel='stylesheet' href='example.css'>
 
 <!-- good -->
 <link rel="stylesheet" href="example.css">
-Boolean ÊôÐÔ
+Boolean å±žæ€§
 
-Boolean ÊôÐÔÖ¸²»ÐèÒªÉùÃ÷È¡ÖµµÄÊôÐÔ¡£XHTML ÐèÒªÃ¿¸öÊôÐÔÉùÃ÷È¡Öµ£¬µ«ÊÇ HTML5 ²¢²»ÐèÒª¡£
+Boolean å±žæ€§æŒ‡ä¸éœ€è¦å£°æ˜Žå–å€¼çš„å±žæ€§ã€‚XHTML éœ€è¦æ¯ä¸ªå±žæ€§å£°æ˜Žå–å€¼ï¼Œä½†æ˜¯ HTML5 å¹¶ä¸éœ€è¦ã€‚
 
-ÁË½â¸ü¶àÄÚÈÝ£¬²Î¿¼ [WhatWG section on boolean attributes]:
+äº†è§£æ›´å¤šå†…å®¹ï¼Œå‚è€ƒ [WhatWG section on boolean attributes]:
 
-Ò»¸öÔªËØÖÐ Boolean ÊôÐÔµÄ´æÔÚ±íÊ¾È¡Öµ true£¬²»´æÔÚÔò±íÊ¾È¡Öµ false¡£
-¼ò¶øÑÔÖ®£¬¾¡Á¿²»ÒªÎª Boolean ÊôÐÔÌí¼ÓÈ¡Öµ¡£
+ä¸€ä¸ªå…ƒç´ ä¸­ Boolean å±žæ€§çš„å­˜åœ¨è¡¨ç¤ºå–å€¼ trueï¼Œä¸å­˜åœ¨åˆ™è¡¨ç¤ºå–å€¼ falseã€‚
+ç®€è€Œè¨€ä¹‹ï¼Œå°½é‡ä¸è¦ä¸º Boolean å±žæ€§æ·»åŠ å–å€¼ã€‚
 
 <!-- bad -->
 <input type="text" disabled="disabled">
@@ -159,9 +159,9 @@ Boolean ÊôÐÔÖ¸²»ÐèÒªÉùÃ÷È¡ÖµµÄÊôÐÔ¡£XHTML ÐèÒªÃ¿¸öÊôÐÔÉùÃ÷È¡Öµ£¬µ«ÊÇ HTML5 ²¢²»Ð
 <select>
   <option value="1" selected>1</option>
 </select>
-×Ô¶¨ÒåÊôÐÔ
+è‡ªå®šä¹‰å±žæ€§
 
-½¨Òé×Ô¶¨ÒåÊôÐÔ±ØÐëÒÔ data- ÎªÇ°×º£¬±ãÓÚÔÄ¶Á¡£
+å»ºè®®è‡ªå®šä¹‰å±žæ€§å¿…é¡»ä»¥ data- ä¸ºå‰ç¼€ï¼Œä¾¿äºŽé˜…è¯»ã€‚
 
 <!-- bad -->
 <a modal="toggle" href="#">
@@ -172,15 +172,15 @@ Boolean ÊôÐÔÖ¸²»ÐèÒªÉùÃ÷È¡ÖµµÄÊôÐÔ¡£XHTML ÐèÒªÃ¿¸öÊôÐÔÉùÃ÷È¡Öµ£¬µ«ÊÇ HTML5 ²¢²»Ð
 <a data-modal="toggle" href="#">
   Example link
 </a>
-ÊôÐÔË³Ðò
+å±žæ€§é¡ºåº
 
-HTML ÊôÐÔÓ¦¸Ã°´ÕÕÌØ¶¨µÄË³Ðò³öÏÖÒÔ±£Ö¤Ò×¶ÁÐÔ£¬¶øÇÒÒ»ÖÂµÄÊôÐÔË³Ðò¿ÉÄÜÌáÉý 1.5% µÄ gzip Ñ¹ËõÂÊ
+HTML å±žæ€§åº”è¯¥æŒ‰ç…§ç‰¹å®šçš„é¡ºåºå‡ºçŽ°ä»¥ä¿è¯æ˜“è¯»æ€§ï¼Œè€Œä¸”ä¸€è‡´çš„å±žæ€§é¡ºåºå¯èƒ½æå‡ 1.5% çš„ gzip åŽ‹ç¼©çŽ‡
 
 class
 id, name
 data-*
 ...
-Classes ÊÇÎª¸ß¿É¸´ÓÃ×é¼þÉè¼ÆµÄ£¬ËùÒÔËûÃÇ´¦ÔÚµÚÒ»Î»¡£Ids ¸ü¼Ó¾ßÌå¶øÇÒÓ¦¸Ã¾¡Á¿ÉÙÊ¹ÓÃ£¨ÀýÈç, Ò³ÄÚÊéÇ©£©£¬ËùÒÔËûÃÇ´¦ÔÚµÚ¶þÎ»¡£
+Classes æ˜¯ä¸ºé«˜å¯å¤ç”¨ç»„ä»¶è®¾è®¡çš„ï¼Œæ‰€ä»¥ä»–ä»¬å¤„åœ¨ç¬¬ä¸€ä½ã€‚Ids æ›´åŠ å…·ä½“è€Œä¸”åº”è¯¥å°½é‡å°‘ä½¿ç”¨ï¼ˆä¾‹å¦‚, é¡µå†…ä¹¦ç­¾ï¼‰ï¼Œæ‰€ä»¥ä»–ä»¬å¤„åœ¨ç¬¬äºŒä½ã€‚
 
 <!-- bad -->
 <a href="#" data-modal="toggle" id="... class="..."">
@@ -195,20 +195,21 @@ Classes ÊÇÎª¸ß¿É¸´ÓÃ×é¼þÉè¼ÆµÄ£¬ËùÒÔËûÃÇ´¦ÔÚµÚÒ»Î»¡£Ids ¸ü¼Ó¾ßÌå¶øÇÒÓ¦¸Ã¾¡Á¿ÉÙÊ¹
 </a>
 
 <input class="form-control" type="text">
-±êÇ©¹æÔ¼
+æ ‡ç­¾è§„çº¦
 
-²»ÒªÔÚ×Ô¶¯±ÕºÏ±êÇ©µÄ½áÎ²´¦Ê¹ÓÃÐ±Ïß£¬Èç <br>¡¢<hr>¡¢<input>¡¢<meta>¡¢<source>
+ä¸è¦åœ¨è‡ªåŠ¨é—­åˆæ ‡ç­¾çš„ç»“å°¾å¤„ä½¿ç”¨æ–œçº¿ï¼Œå¦‚ <br>ã€<hr>ã€<input>ã€<meta>ã€<source>
 
-ÃüÃû¹æÔ¼
+å‘½åè§„çº¦
 
-¶ÔÓÚÐèÒª×Ô¶¨ÒåÊôÐÔ£¬ÊôÐÔÃûÃüÃûÍ³Ò»Ê¹ÓÃ data- Ç°×º£¬¾ßÌå²Î¿¼ custom-data-attribute
-class ÃüÃûºÍ CSS ±àÂë¹æÔ¼ÖÐµÄ±£³ÖÒ»ÖÂ
-id ÃüÃû£¬µ±×÷Îª JS ¹³×ÓÊ¹ÓÃ Ê±£¬ÒÔ J_ ÎªÇ°×º£¬ºóÃæ½Ó´óÍÕ·åÃüÃû£¬ÇÒÕâÀàÑ¡ÔñÆ÷²»ÄÜ³öÏÖÔÚ css ÖÐ£¬ÀýÈç J_ExampleIdForJs¡£ÆäËûÊ¹ÓÃÓÃ·¨£¬ÀýÈç³äµ±Ãªµã£¬label ¶ÔÓ¦ input µÄ id£¬¶¼Õý³£Ä¬ÈÏÊ¹ÓÃ¼´¿É¡£
-¶àÃ½ÌåÍË»¯
+å¯¹äºŽéœ€è¦è‡ªå®šä¹‰å±žæ€§ï¼Œå±žæ€§åå‘½åç»Ÿä¸€ä½¿ç”¨ data- å‰ç¼€ï¼Œå…·ä½“å‚è€ƒ custom-data-attribute
+class å‘½åå’Œ CSS ç¼–ç è§„çº¦ä¸­çš„ä¿æŒä¸€è‡´
+id å‘½åï¼Œå½“ä½œä¸º JS é’©å­ä½¿ç”¨ æ—¶ï¼Œä»¥ J_ ä¸ºå‰ç¼€ï¼ŒåŽé¢æŽ¥å¤§é©¼å³°å‘½åï¼Œä¸”è¿™ç±»é€‰æ‹©å™¨ä¸èƒ½å‡ºçŽ°åœ¨ css ä¸­ï¼Œä¾‹å¦‚ J_ExampleIdForJsã€‚å…¶ä»–ä½¿ç”¨ç”¨æ³•ï¼Œä¾‹å¦‚
+å……å½“é”šç‚¹ï¼Œlabel å¯¹åº” input çš„ idï¼Œéƒ½æ­£å¸¸é»˜è®¤ä½¿ç”¨å³å¯ã€‚
+å¤šåª’ä½“é€€åŒ–
 
-Îª img ±êÇ©Ìí¼Ó alt ÊôÐÔÒÔÉùÃ÷Ìæ´úÎÄ±¾£»
-ÔÚ¶àÃ½Ìå±êÇ©ÄÚ²¿Ìá¹©Ö¸Ê¾ä¯ÀÀÆ÷²»Ö§³Ö¸Ã±êÇ©µÄËµÃ÷£¬Èç object¡¢audio¡¢video
-Àý×Ó£º
+ä¸º img æ ‡ç­¾æ·»åŠ  alt å±žæ€§ä»¥å£°æ˜Žæ›¿ä»£æ–‡æœ¬ï¼›
+åœ¨å¤šåª’ä½“æ ‡ç­¾å†…éƒ¨æä¾›æŒ‡ç¤ºæµè§ˆå™¨ä¸æ”¯æŒè¯¥æ ‡ç­¾çš„è¯´æ˜Žï¼Œå¦‚ objectã€audioã€video
+ä¾‹å­ï¼š
 
 <!-- bad -->
 <audio controls>
@@ -222,6 +223,6 @@ id ÃüÃû£¬µ±×÷Îª JS ¹³×ÓÊ¹ÓÃ Ê±£¬ÒÔ J_ ÎªÇ°×º£¬ºóÃæ½Ó´óÍÕ·åÃüÃû£¬ÇÒÕâÀàÑ¡ÔñÆ÷²»ÄÜ
   <source src="horse.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
-×¢ÊÍ¹æÔ¼
+æ³¨é‡Šè§„çº¦
 
-ÓÉÓÚ html ´úÂëÒ»°ã²»»á¾­¹ýÔ¤´¦Àí£¬³öÓÚ°²È«¿¼ÂÇ£¬html ´úÂëÖÐ²»ÄÜ³öÏÖÈÎºÎ¹ØÓÚÒµÎñÏà¹ØÃô¸ÐÐÅÏ¢µÄ×¢ÊÍ¡£
+ç”±äºŽ html ä»£ç ä¸€èˆ¬ä¸ä¼šç»è¿‡é¢„å¤„ç†ï¼Œå‡ºäºŽå®‰å…¨è€ƒè™‘ï¼Œhtml ä»£ç ä¸­ä¸èƒ½å‡ºçŽ°ä»»ä½•å…³äºŽä¸šåŠ¡ç›¸å…³æ•æ„Ÿä¿¡æ¯çš„æ³¨é‡Šã€‚
