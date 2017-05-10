@@ -1,8 +1,8 @@
-CSS ±àÂë¹æÔ¼
+CSS ç¼–ç è§„çº¦
 
-»ù±¾¹æÔ¼
+åŸºæœ¬è§„çº¦
 
-¡¾ÍÆ¼ö¡¿Ëõ½øÊ¹ÓÃÁ½¸ö¿Õ¸ñ
+ã€æŽ¨èã€‘ç¼©è¿›ä½¿ç”¨ä¸¤ä¸ªç©ºæ ¼
 /* bad */
 .mod-example {
     padding-left: 15px;
@@ -12,7 +12,7 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   padding-left: 15px;
 }
-ÔÚÃ¿¸öÉùÃ÷¿éµÄ×ó»¨À¨ºÅÇ°Ìí¼ÓÒ»¸ö¿Õ¸ñ
+åœ¨æ¯ä¸ªå£°æ˜Žå—çš„å·¦èŠ±æ‹¬å·å‰æ·»åŠ ä¸€ä¸ªç©ºæ ¼
 /* bad */
 .mod-example{
   padding-left: 15px;
@@ -22,7 +22,7 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   padding-left: 15px;
 }
-¡¾ÍÆ¼ö¡¿ÉùÃ÷¿éµÄÓÒ»¨À¨ºÅÓ¦µ±µ¥¶À³ÉÐÐ
+ã€æŽ¨èã€‘å£°æ˜Žå—çš„å³èŠ±æ‹¬å·åº”å½“å•ç‹¬æˆè¡Œ
 /* bad */
 .mod-example {
   padding-left: 15px;}
@@ -31,7 +31,7 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   padding-left: 15px;
 }
-Ã¿ÌõÉùÃ÷Óï¾äµÄ : ºóÓ¦¸Ã²åÈëÒ»¸ö¿Õ¸ñ£¬Ç°ÃæÎÞ¿Õ¸ñ
+æ¯æ¡å£°æ˜Žè¯­å¥çš„ : åŽåº”è¯¥æ’å…¥ä¸€ä¸ªç©ºæ ¼ï¼Œå‰é¢æ— ç©ºæ ¼
 /* bad */
 .mod-example {
   padding-left:15px;
@@ -41,7 +41,7 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   padding-left: 15px;
 }
-ËùÓÐÉùÃ÷Óï¾ä¶¼ÒÔ·ÖºÅ½áÎ²£¬²»ÄÜÊ¡ÂÔ²»Ð´
+æ‰€æœ‰å£°æ˜Žè¯­å¥éƒ½ä»¥åˆ†å·ç»“å°¾ï¼Œä¸èƒ½çœç•¥ä¸å†™
 /* bad */
 .mod-example {
   padding-left: 15px
@@ -51,9 +51,9 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   padding-left: 15px;
 }
-Ñ¡ÔñÆ÷¹æÔ¼
+é€‰æ‹©å™¨è§„çº¦
 
-ÎªÑ¡ÔñÆ÷·Ö×éÊ±£¬½«µ¥¶ÀµÄÑ¡ÔñÆ÷µ¥¶À·ÅÔÚÒ»ÐÐ
+ä¸ºé€‰æ‹©å™¨åˆ†ç»„æ—¶ï¼Œå°†å•ç‹¬çš„é€‰æ‹©å™¨å•ç‹¬æ”¾åœ¨ä¸€è¡Œ
 /* bad */
 .selector, .selector-secondary {
   padding-left: 15px;
@@ -64,7 +64,7 @@ CSS ±àÂë¹æÔ¼
 .selector-secondary {
   padding-left: 15px;
 }
-ÎªÑ¡ÔñÆ÷ÖÐµÄÊôÐÔÌí¼ÓË«ÒýºÅ
+ä¸ºé€‰æ‹©å™¨ä¸­çš„å±žæ€§æ·»åŠ åŒå¼•å·
 /* bad */
 .selector[type=text] {
   padding-left: 15px;
@@ -74,7 +74,7 @@ CSS ±àÂë¹æÔ¼
 .selector[type="text"] {
   padding-left: 15px;
 }
-½¨ÒéÑ¡ÔñÆ÷²ã¼¶²»Òª³¬¹ý5¼¶
+å»ºè®®é€‰æ‹©å™¨å±‚çº§ä¸è¦è¶…è¿‡5çº§
 /* bad */
 .main .top .left .mod-a .content .detail {
   padding-left: 15px;
@@ -84,16 +84,17 @@ CSS ±àÂë¹æÔ¼
 .mod-a .content .detail {
   padding-left: 15px;
 }
-ÊôÐÔ¹æÔ¼
+å±žæ€§è§„çº¦
 
-ÊôÐÔË³Ðò
+å±žæ€§é¡ºåº
 
-¡¾ÍÆ¼ö¡¿½¨ÒéÏà¹ØµÄÊôÐÔËµÃ÷·ÅÔÚÒ»×é£¬²¢°´ÕÕÏÂÃæµÄË³ÐòÅÅÁÐ£º
+ã€æŽ¨èã€‘å»ºè®®ç›¸å…³çš„å±žæ€§è¯´æ˜Žæ”¾åœ¨ä¸€ç»„ï¼Œå¹¶æŒ‰ç…§ä¸‹é¢çš„é¡ºåºæŽ’åˆ—ï¼š
 
-¶¨Î»£¨position¡¢left¡¢right¡¢top¡¢bottom¡¢z-index£©
-ºÐ×ÓÄ£ÐÍ£¨display¡¢float¡¢width¡¢height¡¢margin¡¢padding¡¢border¡¢border-radius£©
-ÅÅÓ¡£¨font¡¢color¡¢background¡¢line-height¡¢text-align£©
-ÓÉÓÚ¶¨Î»¿ÉÒÔ´ÓÕý³£µÄÎÄµµÁ÷ÖÐÒÆ³ýÔªËØ£¬²¢ÇÒ»¹ÄÜ¸²¸ÇºÐÄ£ÐÍÏà¹ØµÄÑùÊ½£¬Òò´ËÅÅÔÚÊ×Î»¡£¶øºÐÄ£ÐÍ¾ö¶¨ÁË×é¼þµÄ³ß´çºÍÎ»ÖÃ£¬ËùÒÔÅÅµÚ¶þÎ»¡£ÅÅÓ¡Ö»ÊÇÓ°ÏìÔªËØµÄÏ¸½ÚÑùÊ½±ä»¯£¬ËùÒÔ·ÅµÚÈýÎ»¡£
+å®šä½ï¼ˆpositionã€leftã€rightã€topã€bottomã€z-indexï¼‰
+ç›’å­æ¨¡åž‹ï¼ˆdisplayã€floatã€widthã€heightã€marginã€paddingã€borderã€border-radiusï¼‰
+æŽ’å°ï¼ˆfontã€colorã€backgroundã€line-heightã€text-alignï¼‰
+ç”±äºŽå®šä½å¯ä»¥ä»Žæ­£å¸¸çš„æ–‡æ¡£æµä¸­ç§»é™¤å…ƒç´ ï¼Œå¹¶ä¸”è¿˜èƒ½è¦†ç›–ç›’æ¨¡åž‹ç›¸å…³çš„æ ·å¼ï¼Œå› æ­¤æŽ’åœ¨é¦–ä½ã€‚è€Œç›’æ¨¡åž‹å†³å®šäº†ç»„ä»¶çš„å°ºå¯¸å’Œä½ç½®ï¼Œæ‰€ä»¥æŽ’ç¬¬äºŒä½ã€‚
+æŽ’å°åªæ˜¯å½±å“å…ƒç´ çš„ç»†èŠ‚æ ·å¼å˜åŒ–ï¼Œæ‰€ä»¥æ”¾ç¬¬ä¸‰ä½ã€‚
 /* bad */
 .mod-example {
   font: normal 13px "Helvetica Neue", sans-serif;
@@ -113,14 +114,14 @@ CSS ±àÂë¹æÔ¼
 
 /* good */
 .mod-example {
-  /* ¶¨Î» */
+  /* å®šä½ */
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 100;
-  /* ºÐÄ£ÐÍ */
+  /* ç›’æ¨¡åž‹ */
   display: block;
   float: right;
   width: 100px;
@@ -128,16 +129,16 @@ CSS ±àÂë¹æÔ¼
   margin: 15px auto;
   padding: 10px 15px;
   border: 1px solid #ccc;
-  /* ÅÅÓ¡ */
+  /* æŽ’å° */
   font: normal 13px "Helvetica Neue", sans-serif;
   line-height: 1.5;
   color: #333;
   background-color: #f5f5f5;
   text-align: center;
 }
-¼òÐ´ÐÎÊ½µÄÊôÐÔÉùÃ÷
+ç®€å†™å½¢å¼çš„å±žæ€§å£°æ˜Ž
 
-¶ÔÓÚ background ºÍ font ÕâÁ½¸ö¼òÐ´ÐÎÊ½µÄÊôÐÔÉùÃ÷£¬ÒªÃ´¾ÍÏÔÊ½ÉùÃ÷ËùÓÐµÄÖµ£¬ÒªÃ´¾Í²»ÒªÊ¹ÓÃ¼òÐ´ÐÎÊ½¡£
+å¯¹äºŽ background å’Œ font è¿™ä¸¤ä¸ªç®€å†™å½¢å¼çš„å±žæ€§å£°æ˜Žï¼Œè¦ä¹ˆå°±æ˜¾å¼å£°æ˜Žæ‰€æœ‰çš„å€¼ï¼Œè¦ä¹ˆå°±ä¸è¦ä½¿ç”¨ç®€å†™å½¢å¼ã€‚
 /* bad */
 .mod-example {
   font: normal 13px;
@@ -152,9 +153,9 @@ CSS ±àÂë¹æÔ¼
   background-color: red;
   background-image: url(image.jpg);
 }
-0 ºÍ µ¥Î»
+0 å’Œ å•ä½
 
-Ê¡ÂÔ ¡°0¡± ÖµºóÃæµÄµ¥Î»¡£²»ÒªÔÚ 0 ÖµºóÃæÊ¹ÓÃµ¥Î»£¬³ý·ÇÓÐÖµ¡£
+çœç•¥ â€œ0â€ å€¼åŽé¢çš„å•ä½ã€‚ä¸è¦åœ¨ 0 å€¼åŽé¢ä½¿ç”¨å•ä½ï¼Œé™¤éžæœ‰å€¼ã€‚
 /* bad */
 .mod-example {
   padding-left: 0px;
@@ -164,9 +165,9 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   padding-left: 0;
 }
-ÑÕÉ«ÖµÊ®Áù½øÖÆ±íÊ¾·¨
+é¢œè‰²å€¼åå…­è¿›åˆ¶è¡¨ç¤ºæ³•
 
-ÔÚ¿ÉÄÜµÄÇé¿öÏÂ£¬Ê¹ÓÃ 3 ¸ö×Ö·ûµÄÊ®Áù½øÖÆ±íÊ¾·¨£¬²¢Ê¼ÖÕÊ¹ÓÃÐ¡Ð´µÄÊ®Áù½øÖÆÊý×Ö
+åœ¨å¯èƒ½çš„æƒ…å†µä¸‹ï¼Œä½¿ç”¨ 3 ä¸ªå­—ç¬¦çš„åå…­è¿›åˆ¶è¡¨ç¤ºæ³•ï¼Œå¹¶å§‹ç»ˆä½¿ç”¨å°å†™çš„åå…­è¿›åˆ¶æ•°å­—
 /* bad */
 .mod-example {
   color: #cccccc;
@@ -178,7 +179,7 @@ CSS ±àÂë¹æÔ¼
   color: #ccc;
   background-color: #efefef;
 }
-Ó¦±ÜÃâ16½øÖÆ±íÊ¾·¨Óërgb±íÊ¾·¨»ìÓÃµÄÇé¿ö£¬²¢ÓÅÏÈÊ¹ÓÃ16½øÖÆ±íÊ¾·¨
+åº”é¿å…16è¿›åˆ¶è¡¨ç¤ºæ³•ä¸Žrgbè¡¨ç¤ºæ³•æ··ç”¨çš„æƒ…å†µï¼Œå¹¶ä¼˜å…ˆä½¿ç”¨16è¿›åˆ¶è¡¨ç¤ºæ³•
 /* bad */
 .example-part1 {
   color: #efefef;
@@ -194,9 +195,9 @@ CSS ±àÂë¹æÔ¼
 .example-part2 {
   color: #fcfcfc;
 }
-Ð¡Êý
+å°æ•°
 
-¶ÔÓÚÊ¹ÓÃµ½Ð¡ÊýµÄÇé¿ö£¬Ê¡ÂÔÇ°±ßµÄ 0
+å¯¹äºŽä½¿ç”¨åˆ°å°æ•°çš„æƒ…å†µï¼Œçœç•¥å‰è¾¹çš„ 0
 /* bad */
 .mod-example {
   opacity: 0.5;
@@ -206,9 +207,9 @@ CSS ±àÂë¹æÔ¼
 .mod-example {
   opacity: .5;
 }
-ÒýºÅ
+å¼•å·
 
-ÊôÐÔÑ¡ÔñÆ÷»òÊôÐÔÖµÓÃË«ÒýºÅ "" À¨ÆðÀ´£¬¶ø URI Öµ url() ²»ÒªÊ¹ÓÃÈÎºÎÒýºÅ
+å±žæ€§é€‰æ‹©å™¨æˆ–å±žæ€§å€¼ç”¨åŒå¼•å· "" æ‹¬èµ·æ¥ï¼Œè€Œ URI å€¼ url() ä¸è¦ä½¿ç”¨ä»»ä½•å¼•å·
 /* bad */
 body {
   font-family: open sans, arial, sans-serif;
@@ -220,26 +221,26 @@ body {
   font-family: "open sans", arial, sans-serif;
   background-image: url(http://taobao.com/);
 }
-×Ô¶¨Òå font-family
+è‡ªå®šä¹‰ font-family
 
-¶ÔÓÚ×Ô¶¨ÒåµÄ font-family ÃüÃû£¬±ØÐëÊ¹ÓÃÒµÎñÓòÃûÇ°×º×÷ÎªÃû×ÖµÄ¿ªÊ¼£¬ÀýÈçÌÔ±¦°®¹ä½ÖµÄ×Ô¶¨Òå×ÖÌå£º
+å¯¹äºŽè‡ªå®šä¹‰çš„ font-family å‘½åï¼Œå¿…é¡»ä½¿ç”¨ä¸šåŠ¡åŸŸåå‰ç¼€ä½œä¸ºåå­—çš„å¼€å§‹ï¼Œä¾‹å¦‚æ·˜å®çˆ±é€›è¡—çš„è‡ªå®šä¹‰å­—ä½“ï¼š
 /* bad */
 @font-face {
-  /* °®¹ä½ÖÒµÎñ×Ô¶¨Òå×ÖÌå */
+  /* çˆ±é€›è¡—ä¸šåŠ¡è‡ªå®šä¹‰å­—ä½“ */
   font-family: icon-font;
   src: url(//at.alicdn.com/t/font_1426561436_1444216.eot);
 }
 
 @font-face {
-  /* °®¹ä½ÖÒµÎñ×Ô¶¨Òå×ÖÌå */
+  /* çˆ±é€›è¡—ä¸šåŠ¡è‡ªå®šä¹‰å­—ä½“ */
   font-family: guang-iconfont; 
   src: url(//at.alicdn.com/t/font_1426561436_1444216.eot);
 }
-Ã½Ìå²éÑ¯£¨Media query£©¹æÔ¼
+åª’ä½“æŸ¥è¯¢ï¼ˆMedia queryï¼‰è§„çº¦
 
-Ã½Ìå²éÑ¯½¨Òé¸ù¾ÝÐèÒª²ÉÓÃÏÂÃæÁ½ÖÖ×éÖ¯ÐÎÊ½£º
-½«Ã½Ìå²éÑ¯·ÅÔÚ¾¡¿ÉÄÜÏà¹Ø¹æÔòµÄ¸½½ü£¬²»Òª·ÅÔÚÎÄµµµ×²¿£¬·ñÔòÈÝÒ×±»ºóÀ´Î¬»¤µÄÈËÒÅÍü
-Ã½Ìå²éÑ¯Õë¶ÔÃ¿Ò»¸öÖÖÆÁÄ»£¨´ó¡¢ÖÐ¡¢Ð¡£©µÄ·Ö±ðµ¥¶À×éÖ¯ÎªÒ»¸öÎÄ¼þ
+åª’ä½“æŸ¥è¯¢å»ºè®®æ ¹æ®éœ€è¦é‡‡ç”¨ä¸‹é¢ä¸¤ç§ç»„ç»‡å½¢å¼ï¼š
+å°†åª’ä½“æŸ¥è¯¢æ”¾åœ¨å°½å¯èƒ½ç›¸å…³è§„åˆ™çš„é™„è¿‘ï¼Œä¸è¦æ”¾åœ¨æ–‡æ¡£åº•éƒ¨ï¼Œå¦åˆ™å®¹æ˜“è¢«åŽæ¥ç»´æŠ¤çš„äººé—å¿˜
+åª’ä½“æŸ¥è¯¢é’ˆå¯¹æ¯ä¸€ä¸ªç§å±å¹•ï¼ˆå¤§ã€ä¸­ã€å°ï¼‰çš„åˆ†åˆ«å•ç‹¬ç»„ç»‡ä¸ºä¸€ä¸ªæ–‡ä»¶
 Example1:
 .element { 
 }
@@ -273,11 +274,11 @@ Example2:
   .element-selected {
   }
 }
-×¢ÊÍ¹æÔ¼
+æ³¨é‡Šè§„çº¦
 
-´úÂë×¢ÊÍ
+ä»£ç æ³¨é‡Š
 
-´úÂëÊÇÓÉÈËÀ´±àÐ´ºÍÎ¬»¤µÄ¡£±£Ö¤ÄãµÄ´úÂëÊÇÃèÊöÐÔµÄ£¬°üº¬ºÃµÄ×¢ÊÍ£¬²¢ÇÒÈÝÒ×±»ËûÈËÀí½â¡£ºÃµÄ´úÂë×¢ÊÍ´«´ïÉÏÏÂÎÄºÍÄ¿±ê¡£²»Òª¼òµ¥µØÖØÉê×é¼þ»òÕß class Ãû³Æ¡£
+ä»£ç æ˜¯ç”±äººæ¥ç¼–å†™å’Œç»´æŠ¤çš„ã€‚ä¿è¯ä½ çš„ä»£ç æ˜¯æè¿°æ€§çš„ï¼ŒåŒ…å«å¥½çš„æ³¨é‡Šï¼Œå¹¶ä¸”å®¹æ˜“è¢«ä»–äººç†è§£ã€‚å¥½çš„ä»£ç æ³¨é‡Šä¼ è¾¾ä¸Šä¸‹æ–‡å’Œç›®æ ‡ã€‚ä¸è¦ç®€å•åœ°é‡ç”³ç»„ä»¶æˆ–è€… class åç§°ã€‚
 /* bad */
 
 /* Modal header */
@@ -289,18 +290,18 @@ Example2:
 /* Wrapping element for .modal-title and .modal-close */
 .modal-header {
 }
-ÎÄ¼þ×¢ÊÍ
+æ–‡ä»¶æ³¨é‡Š
 
-ÎÄ¼þ×¢ÊÍ£¬¼´ÉùÃ÷ÔÚÎÄ¼þÍ·²¿£¬ÃèÊöÎÄ¼þµÄÔªÐÅÏ¢£¬±íÃ÷Õâ¸öÎÄ¼þµÄ×÷ÓÃÊÇÊ²Ã´£¬ÈçÏÂÀý×Ó£º
+æ–‡ä»¶æ³¨é‡Šï¼Œå³å£°æ˜Žåœ¨æ–‡ä»¶å¤´éƒ¨ï¼Œæè¿°æ–‡ä»¶çš„å…ƒä¿¡æ¯ï¼Œè¡¨æ˜Žè¿™ä¸ªæ–‡ä»¶çš„ä½œç”¨æ˜¯ä»€ä¹ˆï¼Œå¦‚ä¸‹ä¾‹å­ï¼š
 /**
- * Õâ¸öÎÄ¼þµÄ×÷ÓÃÊÇÊ²Ã´£¬°ÍÀ­°ÍÀ­
+ * è¿™ä¸ªæ–‡ä»¶çš„ä½œç”¨æ˜¯ä»€ä¹ˆï¼Œå·´æ‹‰å·´æ‹‰
  */
 body {
   color: red;
 }
-ÃüÃû¹æÔ¼
+å‘½åè§„çº¦
 
-Ð¡Ð´×ÖÄ¸¼ÓÁ¬×Ö·û£¨²»ÊÇÏÂ»®Ïß£¬Ò²²»ÊÇÍÕ·åÃüÃû·¨£©
+å°å†™å­—æ¯åŠ è¿žå­—ç¬¦ï¼ˆä¸æ˜¯ä¸‹åˆ’çº¿ï¼Œä¹Ÿä¸æ˜¯é©¼å³°å‘½åæ³•ï¼‰
 /* bad */
 .mod_example {
   padding-left: 15px;
@@ -313,7 +314,7 @@ body {
 .mod-example {
   padding-left: 15px;
 }
-ÐèÒªÔÚ javascript ÖÐÊ¹ÓÃµÄÀàÃûÒÔ J_ ¿ªÍ·£¬½Ó¡°´óÍÕ·å¡±ÃüÃû¡£ÀýÈç J_ExampleClass£¬ ²¢ÇÒÕâÀàµÄ class ²»ÄÜ³öÏÖÔÚ CSS ÎÄ¼þÖÐ
+éœ€è¦åœ¨ javascript ä¸­ä½¿ç”¨çš„ç±»åä»¥ J_ å¼€å¤´ï¼ŒæŽ¥â€œå¤§é©¼å³°â€å‘½åã€‚ä¾‹å¦‚ J_ExampleClassï¼Œ å¹¶ä¸”è¿™ç±»çš„ class ä¸èƒ½å‡ºçŽ°åœ¨ CSS æ–‡ä»¶ä¸­
 <!-- Bad Html Class for Javascript Hook -->
 <div class="mod-example"></div>
 
