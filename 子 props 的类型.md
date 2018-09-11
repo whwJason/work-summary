@@ -1,27 +1,28 @@
-Í¨³££¬Ò»¸ö×é¼şµÄ×Ó´ú£¨this.props.children£©ÊÇÒ»¸ö×é¼şµÄÊı×é£º
-
+é€šå¸¸ï¼Œä¸€ä¸ªç»„ä»¶çš„å­ä»£ï¼ˆthis.props.childrenï¼‰æ˜¯ä¸€ä¸ªç»„ä»¶çš„æ•°ç»„ï¼š
+```js
 var GenericWrapper = React.createClass({
   componentDidMount: function() {
     console.log(Array.isArray(this.props.children)); // => true
   },
-
   render: function() {
     return <div />;
   }
 });
-
 React.render(
   <GenericWrapper><span/><span/><span/></GenericWrapper>,
   mountNode
 );
+```  
 
-È»¶ø£¬µ±Ö»ÓĞÒ»¸ö×Ó´úµÄÊ±ºò£¬this.props.children ½«»á±ä³ÉÒ»¸öµ¥¶ÀµÄ×é¼ş£¬¶ø²»ÊÇÊı×éĞÎÊ½¡£ÕâÑù¾Í¼õÉÙÁËÊı×éµÄÕ¼ÓÃ¡£
 
+ç„¶è€Œï¼Œå½“åªæœ‰ä¸€ä¸ªå­ä»£çš„æ—¶å€™ï¼Œthis.props.children å°†ä¼šå˜æˆä¸€ä¸ªå•ç‹¬çš„ç»„ä»¶ï¼Œè€Œä¸æ˜¯æ•°ç»„å½¢å¼ã€‚è¿™æ ·å°±å‡å°‘äº†æ•°ç»„çš„å ç”¨ã€‚
+
+```js
 var GenericWrapper = React.createClass({
   componentDidMount: function() {
     console.log(Array.isArray(this.props.children)); // => false
 
-    // ×¢Òâ£º½á¹û½«ÊÇ 5£¬¶ø²»ÊÇ 1£¬ÒòÎª `this.props.children` ²»ÊÇÊı×é£¬¶øÊÇ 'hello' ×Ö·û´®£¡
+    // æ³¨æ„ï¼šç»“æœå°†æ˜¯ 5ï¼Œè€Œä¸æ˜¯ 1ï¼Œå› ä¸º `this.props.children` ä¸æ˜¯æ•°ç»„ï¼Œè€Œæ˜¯ 'hello' å­—ç¬¦ä¸²ï¼
     console.log(this.props.children.length);
   },
 
@@ -31,5 +32,7 @@ var GenericWrapper = React.createClass({
 });
 
 React.render(<GenericWrapper>hello</GenericWrapper>, mountNode);
+```  
 
-ÎªÁËÈÃ´¦Àí this.props.children ¸ü¼òµ¥£¬ÎÒÃÇÌá¹©ÁË React.Children utilities¡£
+
+ä¸ºäº†è®©å¤„ç† this.props.children æ›´ç®€å•ï¼Œæˆ‘ä»¬æä¾›äº† React.Children utilitiesã€‚
