@@ -7,12 +7,26 @@
 在彻底的理解安全问题后果并正确地净化数据之后，生成只包含唯一 key __html 的对象，并且对象的值是净化后的数据。下面是一个使用 JSX 语法
 的栗子：
 
-    function createMarkup() { return {__html: 'First  &middot; Second'}; };
-    <div dangerouslySetInnerHTML={createMarkup()} />
+```js
+function createMarkup() { return {__html: 'First  &middot; Second'}; };
+<div dangerouslySetInnerHTML={createMarkup()} />
+```  
 
-这么做的意义在于，当你不是有意地使用 <div dangerouslySetInnerHTML={getUsername()} /> 时候，它并不会被渲染，因为 getUsername() 
+
+这么做的意义在于，当你不是有意地使用 
+
+```js
+<div dangerouslySetInnerHTML={getUsername()} />
+```  
+
+
+ 时候，它并不会被渲染，因为 getUsername() 
 返回的格式是字符串 而不是一个 {__html: ''} 对象。{__html:...} 背后的目的是表明它会被当成 "type/taint" 类型处理。 这种包裹对象，
 可以通过方法调用返回净化后的数据，随后这种标记过的数据可以被传递给 dangerouslySetInnerHTML。 基于这种原因，我们不推荐写
-这种形式的代码：<div dangerouslySetInnerHTML={{'{{'}}__html: getMarkup()}} />.
+这种形式的代码：
+```js
+<div dangerouslySetInnerHTML={{'{{'}}__html: getMarkup()}} />
+```  
+
 
 这个功能主要被用来与 DOM 字符串操作类库一起使用，所以提供的 HTML 必须要格式清晰（例如：传递 XML 校验 ）
