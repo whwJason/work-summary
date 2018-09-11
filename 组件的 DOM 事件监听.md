@@ -1,11 +1,7 @@
-
-
-    ×¢Òâ£º
-
-    ÕâÆªÎÄÕÂÊÇ½²ÈçºÎ¸ø DOM ÔªËØ°ó¶¨ React Î´Ìá¹©µÄÊÂ¼ş (check here for more info¡£ µ±ÄãÏëºÍÆäËûÀà¿â±ÈÈç jQuery Ò»ÆğÊ¹ÓÃµÄÊ±ºò£¬ĞèÒªÖªµÀÕâĞ©¡£
+è¿™ç¯‡æ–‡ç« æ˜¯è®²å¦‚ä½•ç»™ DOM å…ƒç´ ç»‘å®š React æœªæä¾›çš„äº‹ä»¶ (check here for more infoã€‚ å½“ä½ æƒ³å’Œå…¶ä»–ç±»åº“æ¯”å¦‚ jQuery ä¸€èµ·ä½¿ç”¨çš„æ—¶å€™ï¼Œéœ€è¦çŸ¥é“è¿™äº›ã€‚
 
 Try to resize the window:
-
+```js
 var Box = React.createClass({
   getInitialState: function() {
     return {windowWidth: window.innerWidth};
@@ -29,7 +25,9 @@ var Box = React.createClass({
 });
 
 React.render(<Box />, mountNode);
+```  
 
-componentDidMount »áÔÚ component äÖÈ¾Íê³ÉÇÒÒÑ¾­ÓĞÁË DOM ½á¹¹µÄÊ±ºò±»µ÷ÓÃ¡£Í¨³£Çé¿öÏÂ£¬Äã¿ÉÒÔÔÚÕâ°ó¶¨ÆÕÍ¨µÄ DOM ÊÂ¼ş¡£
 
-×¢Òâ£¬ÊÂ¼şµÄ»Øµ÷±»°ó¶¨ÔÚÁË react ×é¼şÉÏ£¬¶ø²»ÊÇÔ­Ê¼µÄÔªËØÉÏ¡£React Í¨¹ıÒ»¸ö autobinding ¹ı³Ì×Ô¶¯½«·½·¨°ó¶¨µ½µ±Ç°µÄ×é¼şÊµÀıÉÏ¡£
+componentDidMount ä¼šåœ¨ component æ¸²æŸ“å®Œæˆä¸”å·²ç»æœ‰äº† DOM ç»“æ„çš„æ—¶å€™è¢«è°ƒç”¨ã€‚é€šå¸¸æƒ…å†µä¸‹ï¼Œä½ å¯ä»¥åœ¨è¿™ç»‘å®šæ™®é€šçš„ DOM äº‹ä»¶ã€‚
+
+æ³¨æ„ï¼Œäº‹ä»¶çš„å›è°ƒè¢«ç»‘å®šåœ¨äº† react ç»„ä»¶ä¸Šï¼Œè€Œä¸æ˜¯åŸå§‹çš„å…ƒç´ ä¸Šã€‚React é€šè¿‡ä¸€ä¸ª autobinding è¿‡ç¨‹è‡ªåŠ¨å°†æ–¹æ³•ç»‘å®šåˆ°å½“å‰çš„ç»„ä»¶å®ä¾‹ä¸Šã€‚
